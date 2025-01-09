@@ -1,0 +1,7 @@
+def reverse_words(text):
+    words=text.split()
+    reversed_words=words[::-1]
+    return ' '.join(reversed_words)
+original_text=str(input())
+reversed_text=reverse_words(original_text)
+print(reversed_text)
